@@ -1,0 +1,856 @@
+[pakistan_flex_fsd_modern_printing_studio (2).html](https://github.com/user-attachments/files/34521881/pakistan_flex_fsd_modern_printing_studio.2.html)
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakistan Flex FSD — Premium Flex Printing & Graphic Design Studio Faisalabad</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            gold: '#F59E0B',
+                            amber: '#D97706',
+                            yellow: '#FBBF24',
+                            dark: '#0B0F17',
+                            card: '#131924',
+                            border: '#1F293D',
+                            accent: '#F59E0B'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                        heading: ['Syne', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #0B0F17;
+            color: #F3F4F6;
+        }
+        .glass-nav {
+            background: rgba(11, 15, 23, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FBBF24 0%, #F59E0B 50%, #D97706 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-gradient-bg {
+            background: linear-gradient(135deg, #FBBF24 0%, #F59E0B 50%, #D97706 100%);
+        }
+        .gold-border-glow:hover {
+            box-shadow: 0 0 25px rgba(245, 158, 11, 0.25);
+            border-color: rgba(245, 158, 11, 0.5);
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand-gold selection:text-slate-950 flex flex-col min-h-screen">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-gradient-to-r from-amber-600 via-amber-500 to-yellow-500 text-slate-950 text-xs font-bold py-2 px-4 text-center tracking-wide flex justify-center items-center gap-2">
+        <span class="bg-slate-950 text-brand-gold text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full">Faisalabad Studio</span>
+        <span>⚡ High-Speed Flex Printing & Creative Design • Express Same-Day Delivery Available!</span>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 glass-nav border-b border-slate-800/80 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            
+            <!-- Logo -->
+            <a href="#home" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl gold-gradient-bg flex items-center justify-center text-slate-950 font-heading font-extrabold text-xl shadow-lg shadow-brand-gold/20 group-hover:scale-105 transition-transform">
+                    PF
+                </div>
+                <div class="flex flex-col">
+                    <span class="font-heading font-bold text-lg sm:text-xl text-white tracking-wider leading-none">
+                        PAKISTAN <span class="gold-gradient-text">FLEX</span>
+                    </span>
+                    <span class="text-[10px] text-slate-400 font-semibold tracking-widest uppercase mt-0.5">Faisalabad • FSD</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center space-x-8 text-sm font-semibold text-slate-300">
+                <a href="#home" class="hover:text-brand-gold transition-colors">Home</a>
+                <a href="#machine" class="hover:text-brand-gold transition-colors">Machine</a>
+                <a href="#services" class="hover:text-brand-gold transition-colors">Services</a>
+                <a href="#products" class="hover:text-brand-gold transition-colors">Products</a>
+                <a href="#about" class="hover:text-brand-gold transition-colors">About</a>
+                <a href="#contact" class="hover:text-brand-gold transition-colors">Contact</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="hidden sm:flex items-center space-x-4">
+                <button onclick="openQuoteModal()" class="px-5 py-2.5 rounded-xl border border-brand-gold/40 text-brand-gold font-semibold text-xs uppercase tracking-wider hover:bg-brand-gold hover:text-slate-950 transition-all shadow-md">
+                    Get A Quote
+                </button>
+                <a href="https://wa.me/923002447735?text=Hi%20Pakistan%20Flex%20FSD,%20I%20want%20to%20inquire%20about%20printing%20services." target="_blank" class="px-5 py-2.5 rounded-xl gold-gradient-bg text-slate-950 font-bold text-xs uppercase tracking-wider hover:opacity-95 transition-all shadow-lg shadow-brand-gold/20 flex items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-sm"></i> 0300-2447735
+                </a>
+            </div>
+
+            <!-- Mobile Menu Trigger -->
+            <button id="mobile-menu-btn" class="md:hidden text-slate-300 hover:text-brand-gold p-2">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="fixed inset-0 z-50 bg-slate-950/80 backdrop-blur-md hidden">
+        <div class="w-4/5 max-w-sm bg-brand-dark border-r border-slate-800 h-full p-6 flex flex-col justify-between">
+            <div>
+                <div class="flex justify-between items-center pb-6 border-b border-slate-800">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-xl gold-gradient-bg flex items-center justify-center text-slate-950 font-heading font-extrabold">PF</div>
+                        <span class="font-heading font-bold text-white">PAKISTAN FLEX</span>
+                    </div>
+                    <button id="close-mobile-menu" class="text-slate-400 hover:text-white p-2">
+                        <i class="fa-solid fa-xmark text-xl"></i>
+                    </button>
+                </div>
+                <nav class="mt-8 flex flex-col space-y-4 text-base font-semibold text-slate-300">
+                    <a href="#home" class="mobile-link hover:text-brand-gold py-2">Home</a>
+                    <a href="#machine" class="mobile-link hover:text-brand-gold py-2">Machine Technology</a>
+                    <a href="#services" class="mobile-link hover:text-brand-gold py-2">Services</a>
+                    <a href="#products" class="mobile-link hover:text-brand-gold py-2">Products</a>
+                    <a href="#about" class="mobile-link hover:text-brand-link py-2">About Us</a>
+                    <a href="#calculator" class="mobile-link hover:text-brand-gold py-2">Cost Calculator</a>
+                    <a href="#contact" class="mobile-link hover:text-brand-gold py-2">Contact</a>
+                </nav>
+            </div>
+            <div class="space-y-3 pt-6 border-t border-slate-800">
+                <button onclick="openQuoteModal(); toggleMobileMenu();" class="w-full py-3 rounded-xl border border-brand-gold text-brand-gold font-bold text-xs uppercase tracking-wider">
+                    Request Quote
+                </button>
+                <a href="https://wa.me/923002447735" target="_blank" class="w-full py-3 rounded-xl gold-gradient-bg text-slate-950 font-extrabold text-xs uppercase tracking-wider text-center flex justify-center items-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <main class="flex-grow">
+
+        <!-- Hero Section -->
+        <section id="home" class="relative py-20 lg:py-32 overflow-hidden border-b border-slate-800/60">
+            <!-- Background Glow -->
+            <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-brand-gold/10 blur-[140px] rounded-full pointer-events-none"></div>
+
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <div class="lg:col-span-7 space-y-8 text-center lg:text-left">
+                        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900 border border-brand-gold/30 text-brand-gold text-xs font-bold tracking-widest uppercase shadow-inner">
+                            <span class="w-2 h-2 rounded-full bg-brand-gold animate-pulse"></span>
+                            PREMIUM PRINTING EXPERIENCE
+                        </div>
+
+                        <h1 class="font-heading text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-tight tracking-tight">
+                            WE PRINT <br>
+                            <span class="gold-gradient-text">YOUR VISION.</span>
+                        </h1>
+
+                        <p class="text-base sm:text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0 font-light leading-relaxed">
+                            Transforming ideas into powerful visuals. Professional flex printing, creative graphic design, and premium advertising solutions in <strong class="text-white font-semibold">Faisalabad</strong>.
+                        </p>
+
+                        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                            <button onclick="openQuoteModal()" class="px-8 py-4 rounded-xl gold-gradient-bg text-slate-950 font-extrabold text-sm uppercase tracking-wider shadow-lg shadow-brand-gold/25 hover:scale-105 transition-all flex items-center justify-center gap-2">
+                                START YOUR PROJECT <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                            </button>
+                            <a href="https://wa.me/923002447735?text=Hi!%20I%20am%20interested%20in%20flex%20printing%20services." target="_blank" class="px-8 py-4 rounded-xl bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 font-bold text-sm uppercase tracking-wider transition-all flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-whatsapp text-emerald-400 text-lg"></i> CHAT ON WHATSAPP
+                            </a>
+                        </div>
+
+                        <!-- Stats Banner -->
+                        <div class="pt-8 border-t border-slate-800/80 grid grid-cols-3 gap-4 text-center lg:text-left">
+                            <div>
+                                <span class="font-heading text-2xl sm:text-3xl font-extrabold text-white">100%</span>
+                                <p class="text-xs text-slate-400 font-medium mt-1">HD Print Clarity</p>
+                            </div>
+                            <div>
+                                <span class="font-heading text-2xl sm:text-3xl font-extrabold text-white">24/7</span>
+                                <p class="text-xs text-slate-400 font-medium mt-1">Express Turnaround</p>
+                            </div>
+                            <div>
+                                <span class="font-heading text-2xl sm:text-3xl font-extrabold text-white">5000+</span>
+                                <p class="text-xs text-slate-400 font-medium mt-1">Satisfied Clients</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Visual Card -->
+                    <div class="lg:col-span-5 relative">
+                        <div class="relative rounded-3xl overflow-hidden border border-slate-800 bg-brand-card p-3 shadow-2xl group">
+                            <img src="Gemini_Generated_Image_92rn4t92rn4t92rn.jpg" alt="Industrial Flex Printing Machine" class="w-full h-[420px] object-cover rounded-2xl group-hover:scale-105 transition-transform duration-700">
+                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+                            
+                            <div class="absolute bottom-6 left-6 right-6 bg-slate-950/80 backdrop-blur-md p-4 rounded-xl border border-slate-800 flex items-center justify-between">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-3 h-3 rounded-full bg-emerald-500 animate-ping"></div>
+                                    <div>
+                                        <p class="text-xs font-bold text-white">Heavy Industrial Print Engine</p>
+                                        <p class="text-[10px] text-slate-400">High Resolution Large Format Printing</p>
+                                    </div>
+                                </div>
+                                <span class="px-3 py-1 bg-brand-gold/20 text-brand-gold text-[10px] font-bold rounded-full">Active Unit</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Machine & Technology Showcase Section -->
+        <section id="machine" class="py-20 bg-brand-dark relative border-b border-slate-800/60">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row md:items-end justify-between mb-16">
+                    <div>
+                        <span class="text-brand-gold font-bold text-xs uppercase tracking-widest">OUR PRINTING TECHNOLOGY</span>
+                        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-white mt-2">
+                            POWERFUL PRINTING. <br class="hidden sm:inline"><span class="gold-gradient-text">PERFECT RESULTS.</span>
+                        </h2>
+                    </div>
+                    <p class="text-slate-400 text-sm max-w-md mt-4 md:mt-0 leading-relaxed">
+                        Professional large-format printing for banners, flex advertisements, and business branding with extreme color fidelity and weather resistance.
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Tech Feature 1 -->
+                    <div class="bg-brand-card border border-slate-800 p-8 rounded-2xl gold-border-glow transition-all">
+                        <div class="w-14 h-14 rounded-xl bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold text-2xl mb-6">
+                            <i class="fa-solid fa-print"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-white mb-3">Ultra HD Resolution</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Equipped with high-precision printheads capable of delivering 1440 DPI crisp text and sharp graphical detail even on massive outdoor banners.
+                        </p>
+                    </div>
+
+                    <!-- Tech Feature 2 -->
+                    <div class="bg-brand-card border border-slate-800 p-8 rounded-2xl gold-border-glow transition-all">
+                        <div class="w-14 h-14 rounded-xl bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold text-2xl mb-6">
+                            <i class="fa-solid fa-palette"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-white mb-3">Vibrant Ink System</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            UV-resistant eco-solvent inks engineered for intense sunlight, waterproof durability, and extended color vibrancy outdoors in Faisalabad.
+                        </p>
+                    </div>
+
+                    <!-- Tech Feature 3 -->
+                    <div class="bg-brand-card border border-slate-800 p-8 rounded-2xl gold-border-glow transition-all">
+                        <div class="w-14 h-14 rounded-xl bg-brand-gold/10 border border-brand-gold/30 flex items-center justify-center text-brand-gold text-2xl mb-6">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-white mb-3">Heavy-Duty Output</h3>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Capable of continuous roll-to-roll printing up to 10+ feet in single seamless width with lightning fast turnaround for urgent campaigns.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-24 bg-slate-950 relative border-b border-slate-800/60">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <span class="text-brand-gold font-bold text-xs uppercase tracking-widest">WHAT WE OFFER</span>
+                    <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-white mt-2">
+                        Our Premium Services
+                    </h2>
+                    <p class="text-slate-400 text-sm mt-4">Quality and creativity in every print.</p>
+                </div>
+
+                <!-- 9 Service Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Service 1 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">✦</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Flex Printing</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Flex Printing</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Professional large-format flex printing with vibrant colors, heavy-duty material, and sharp definition.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Flex Printing')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            ORDER FLEX PRINT ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">▤</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Sign Boards</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Banners & Sign Boards</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Eye-catching promotional banners, backlight boards, shop fascia signs, and frontlit billboards.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Banners & Sign Boards')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            ORDER BANNERS ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">▣</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Cards</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Visiting Cards</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Premium business cards, textured cards, spot UV finishes, and professional executive identity.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Visiting Cards')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            ORDER CARDS ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 4 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">◈</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Branding</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Stickers & Labels</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Custom die-cut stickers, waterproof product labels, packaging seals, and barcode labels.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Stickers & Labels')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            ORDER STICKERS ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 5 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">◇</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Windows</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Vinyl & One-Way Vision</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Modern shop glass graphics, perforated one-way vision film, frosted glass stickers, and vehicle wraps.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Vinyl & One-Way Vision')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            ORDER VINYL ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 6 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">▧</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Marketing</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Brochures & Flyers</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Professional promotional flyers, trifold brochures, pamphlets, catalog prints, and menu cards.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Brochures & Flyers')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            ORDER FLYERS ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 7 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">▥</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Stationery</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Bill Books</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Custom carbonless cash memos, invoices, estimate books, letterheads, and official stationery.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Bill Books')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            ORDER BILL BOOKS ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 8 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-slate-800 hover:border-brand-gold/50 transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">✎</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-slate-500 bg-slate-900 px-3 py-1 rounded-full border border-slate-800">Creative</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Graphic Designing</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Creative logo design, social media posts, vector artwork, brand identity, and print-ready layouts.</p>
+                        </div>
+                        <button onclick="selectServiceForQuote('Graphic Designing')" class="mt-6 text-xs font-bold text-brand-gold flex items-center gap-2 group-hover:translate-x-1 transition-transform">
+                            HIRE DESIGNER ↗
+                        </button>
+                    </div>
+
+                    <!-- Service 9 -->
+                    <div class="bg-brand-card p-8 rounded-2xl border border-brand-gold/40 bg-gradient-to-br from-brand-card to-slate-900 hover:border-brand-gold transition-all group flex flex-col justify-between">
+                        <div>
+                            <div class="flex justify-between items-start mb-6">
+                                <span class="text-3xl text-brand-gold">＋</span>
+                                <span class="text-[10px] font-bold uppercase tracking-wider text-brand-gold bg-brand-gold/10 px-3 py-1 rounded-full border border-brand-gold/30">Custom</span>
+                            </div>
+                            <h3 class="font-heading text-xl font-bold text-white group-hover:text-brand-gold transition-colors mb-2">Custom Projects</h3>
+                            <p class="text-xs text-slate-400 leading-relaxed">Tell us your unique idea and let’s construct custom event backdrops, exhibition stalls, or unique prints!</p>
+                        </div>
+                        <button onclick="openQuoteModal()" class="mt-6 text-xs font-bold text-slate-950 bg-brand-gold py-2 px-4 rounded-lg flex items-center justify-center gap-2 hover:bg-yellow-400 transition-colors">
+                            START CUSTOM IDEA ↗
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Instant Quote & Price Estimator Calculator -->
+        <section id="calculator" class="py-20 bg-brand-dark border-b border-slate-800/60">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-brand-card rounded-3xl border border-slate-800 p-6 sm:p-10 shadow-2xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 w-64 h-64 bg-brand-gold/5 blur-[100px] rounded-full"></div>
+                    
+                    <div class="text-center max-w-xl mx-auto mb-10">
+                        <span class="text-brand-gold font-bold text-xs uppercase tracking-widest">INSTANT ESTIMATOR</span>
+                        <h2 class="font-heading text-2xl sm:text-4xl font-extrabold text-white mt-1">Flex & Print Price Calculator</h2>
+                        <p class="text-xs text-slate-400 mt-2">Calculate estimated dimensions and directly transmit specifications to our WhatsApp!</p>
+                    </div>
+
+                    <form id="calc-form" onsubmit="handleCalcSubmit(event)" class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            
+                            <!-- Product Type Select -->
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Select Item Type</label>
+                                <select id="calc-product" onchange="updateCalcEstimate()" class="w-full bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-gold">
+                                    <option value="China Flex (Rs. 30/sq.ft)">China Flex — Rs. 30 / sq.ft</option>
+                                    <option value="Korean Star Flex (Rs. 60/sq.ft)">Korean Star Flex — Rs. 60 / sq.ft</option>
+                                    <option value="Backlight Board Flex (Rs. 120/sq.ft)">Backlight Board Flex — Rs. 120 / sq.ft</option>
+                                    <option value="One Way Vision / Sticker (Rs. 120/sq.ft)">One Way Vision / Sticker — Rs. 120 / sq.ft</option>
+                                    <option value="Visiting Cards (Pack of 1000)">Visiting Cards (Standard 1000 Pcs)</option>
+                                </select>
+                            </div>
+
+                            <!-- Quantity -->
+                            <div>
+                                <label class="block text-xs font-bold uppercase tracking-wider text-slate-300 mb-2">Quantity (Copies)</label>
+                                <input type="number" id="calc-qty" value="1" min="1" oninput="updateCalcEstimate()" class="w-full bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-3 text-sm focus:outline-none focus:border-brand-gold">
+                            </div>
+
+                        </div>
+
+                        <!-- Dimensions Input Grid -->
+                        <div id="dimensions-group" class="grid grid-cols-2 gap-6 p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-400 mb-1">Width (Feet)</label>
+                                <input type="number" id="calc-width" value="10" min="1" step="0.5" oninput="updateCalcEstimate()" class="w-full bg-slate-950 border border-slate-700 text-white rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-brand-gold">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-400 mb-1">Height (Feet)</label>
+                                <input type="number" id="calc-height" value="5" min="1" step="0.5" oninput="updateCalcEstimate()" class="w-full bg-slate-950 border border-slate-700 text-white rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-brand-gold">
+                            </div>
+                        </div>
+
+                        <!-- Estimate Display Box -->
+                        <div class="bg-slate-950 border border-slate-800 rounded-2xl p-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+                            <div>
+                                <span class="text-[10px] text-slate-400 uppercase tracking-widest font-bold">Estimated Total Area / Cost</span>
+                                <div class="flex items-baseline gap-3 mt-1">
+                                    <span id="calc-sqft-display" class="text-sm font-semibold text-slate-300">50 Sq. Ft</span>
+                                    <span id="calc-price-display" class="font-heading text-3xl font-extrabold text-brand-gold">Rs. 1,500*</span>
+                                </div>
+                                <p class="text-[10px] text-slate-500 mt-1">*Final price may vary based on specific finishing (eyelets, framing, graphic design effort).</p>
+                            </div>
+
+                            <button type="submit" class="w-full sm:w-auto px-6 py-3.5 gold-gradient-bg text-slate-950 font-extrabold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-brand-gold/20 flex items-center justify-center gap-2 hover:opacity-95 transition-all">
+                                <i class="fa-brands fa-whatsapp text-base"></i> Send Order to WhatsApp
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Portfolio Section -->
+        <section id="products" class="py-24 bg-slate-950 border-b border-slate-800/60">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span class="text-brand-gold font-bold text-xs uppercase tracking-widest">OUR CREATIVE WORLD</span>
+                    <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-white mt-2">Our Printing Products</h2>
+                    <p class="text-slate-400 text-sm mt-3">Explore our high-quality printing and design collection.</p>
+                </div>
+
+                <!-- Category Filters -->
+                <div class="flex flex-wrap justify-center gap-2 mb-12">
+                    <button onclick="filterProducts('all')" class="prod-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-brand-gold text-slate-950">All Items</button>
+                    <button onclick="filterProducts('flex')" class="prod-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-900 text-slate-300 hover:text-white border border-slate-800">Flex & Banners</button>
+                    <button onclick="filterProducts('cards')" class="prod-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-900 text-slate-300 hover:text-white border border-slate-800">Visiting Cards</button>
+                    <button onclick="filterProducts('design')" class="prod-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-900 text-slate-300 hover:text-white border border-slate-800">Graphic Design</button>
+                    <button onclick="filterProducts('branding')" class="prod-filter-btn px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-wider bg-slate-900 text-slate-300 hover:text-white border border-slate-800">Vinyl & Stickers</button>
+                </div>
+
+                <!-- Products Grid -->
+                <div id="products-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Dynamic Product Cards Injected via JS -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us / Pakistan Flex Difference -->
+        <section id="about" class="py-24 bg-brand-dark relative border-b border-slate-800/60">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    
+                    <div class="lg:col-span-6 space-y-6">
+                        <span class="text-brand-gold font-bold text-xs uppercase tracking-widest">THE PAKISTAN FLEX DIFFERENCE</span>
+                        <h2 class="font-heading text-3xl sm:text-5xl font-extrabold text-white leading-tight">
+                            CREATIVITY MEETS <br><span class="gold-gradient-text">UNMATCHED QUALITY.</span>
+                        </h2>
+                        <p class="text-slate-300 text-sm sm:text-base leading-relaxed font-light">
+                            We help businesses stand out through professional graphic design and quality printing. From small business cards to large advertising banners, we make your ideas visible across Faisalabad and beyond.
+                        </p>
+
+                        <!-- Key Checkpoints -->
+                        <div class="grid grid-cols-2 gap-4 pt-4">
+                            <div class="flex items-center gap-3 p-4 rounded-xl bg-slate-900 border border-slate-800">
+                                <i class="fa-solid fa-circle-check text-brand-gold text-lg"></i>
+                                <span class="text-sm font-bold text-white">Professional Design</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 rounded-xl bg-slate-900 border border-slate-800">
+                                <i class="fa-solid fa-circle-check text-brand-gold text-lg"></i>
+                                <span class="text-sm font-bold text-white">Quality Printing</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 rounded-xl bg-slate-900 border border-slate-800">
+                                <i class="fa-solid fa-circle-check text-brand-gold text-lg"></i>
+                                <span class="text-sm font-bold text-white">Creative Solutions</span>
+                            </div>
+                            <div class="flex items-center gap-3 p-4 rounded-xl bg-slate-900 border border-slate-800">
+                                <i class="fa-solid fa-circle-check text-brand-gold text-lg"></i>
+                                <span class="text-sm font-bold text-white">Customer Support</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-6">
+                        <div class="bg-brand-card p-8 rounded-3xl border border-slate-800 relative">
+                            <div class="flex items-center gap-4 border-b border-slate-800 pb-6 mb-6">
+                                <div class="w-16 h-16 rounded-2xl gold-gradient-bg flex items-center justify-center font-heading text-2xl font-extrabold text-slate-950">
+                                    PF
+                                </div>
+                                <div>
+                                    <h4 class="font-heading text-xl font-bold text-white">PAKISTAN FLEX FSD</h4>
+                                    <p class="text-xs text-brand-gold font-semibold uppercase tracking-wider">PRINT • DESIGN • IMPRESS</p>
+                                </div>
+                            </div>
+                            <blockquote class="text-slate-300 text-sm italic leading-relaxed mb-6">
+                                "Our mission is simple: provide business owners in Faisalabad with premium advertising flex printing, sharp layouts, and fast delivery at competitive prices."
+                            </blockquote>
+                            <div class="flex items-center justify-between text-xs text-slate-400">
+                                <span><i class="fa-solid fa-location-dot text-brand-gold mr-1"></i> Faisalabad, Punjab, PK</span>
+                                <span><i class="fa-solid fa-phone text-brand-gold mr-1"></i> 0300-2447735</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA & Contact Section -->
+        <section id="contact" class="py-24 bg-slate-950 relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-gradient-to-br from-brand-card via-slate-900 to-brand-dark rounded-3xl border border-slate-800 p-8 sm:p-16 text-center relative overflow-hidden shadow-2xl">
+                    <div class="absolute -top-24 -right-24 w-72 h-72 bg-brand-gold/10 rounded-full blur-3xl"></div>
+
+                    <span class="text-brand-gold font-bold text-xs uppercase tracking-widest">LET'S CREATE SOMETHING GREAT</span>
+                    <h2 class="font-heading text-3xl sm:text-6xl font-extrabold text-white mt-2 mb-4">
+                        YOUR BRAND DESERVES BETTER.
+                    </h2>
+                    <p class="text-slate-400 text-sm sm:text-base max-w-xl mx-auto mb-8 font-light">
+                        Get in touch for your next flex printing, billboard, or graphic design project. Instant support via phone and WhatsApp.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                        <a href="https://wa.me/923002447735?text=Hello%20Pakistan%20Flex!%20I%20need%20a%20quotation." target="_blank" class="w-full sm:w-auto px-8 py-4 gold-gradient-bg text-slate-950 font-extrabold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-brand-gold/25 hover:scale-105 transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i> CHAT ON WHATSAPP ↗
+                        </a>
+                        <a href="tel:03002447735" class="w-full sm:w-auto px-8 py-4 bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 font-bold text-xs uppercase tracking-wider rounded-xl transition-all flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-phone text-brand-gold"></i> CALL 0300-2447735
+                        </a>
+                    </div>
+
+                    <div class="mt-12 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-400 gap-4">
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-location-dot text-brand-gold"></i>
+                            <span>Pakistan Flex FSD · Faisalabad, Pakistan</span>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <i class="fa-solid fa-clock text-brand-gold"></i>
+                            <span>Mon - Sat: 9:00 AM - 9:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 border-t border-slate-900 py-10 text-xs text-slate-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+            <div class="flex items-center gap-3">
+                <div class="w-6 h-6 rounded-lg gold-gradient-bg flex items-center justify-center text-slate-950 font-heading font-bold text-xs">PF</div>
+                <span class="font-heading font-bold text-white tracking-wider">PAKISTAN FLEX FAISALABAD</span>
+            </div>
+            <p>&copy; 2026 Pakistan Flex FSD. All Rights Reserved. Designed for Premier Printing.</p>
+            <div class="flex space-x-4 text-slate-400">
+                <a href="https://wa.me/923002447735" class="hover:text-brand-gold"><i class="fa-brands fa-whatsapp text-base"></i></a>
+                <a href="#" class="hover:text-brand-gold"><i class="fa-brands fa-facebook text-base"></i></a>
+                <a href="#" class="hover:text-brand-gold"><i class="fa-brands fa-instagram text-base"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Interactive Quick Quote Request Modal -->
+    <div id="quote-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4">
+        <div class="fixed inset-0 bg-slate-950/80 backdrop-blur-md" onclick="closeQuoteModal()"></div>
+        <div class="bg-brand-card border border-slate-800 rounded-3xl max-w-lg w-full p-6 sm:p-8 relative z-10 shadow-2xl">
+            <button onclick="closeQuoteModal()" class="absolute top-5 right-5 text-slate-400 hover:text-white p-2">
+                <i class="fa-solid fa-xmark text-xl"></i>
+            </button>
+            <div class="mb-6">
+                <span class="text-brand-gold font-bold text-[10px] uppercase tracking-widest">GET A QUICK QUOTE</span>
+                <h3 class="font-heading text-2xl font-bold text-white mt-1">Start Your Print Project</h3>
+            </div>
+            
+            <form id="modal-quote-form" onsubmit="submitModalQuote(event)" class="space-y-4">
+                <div>
+                    <label class="block text-xs font-bold text-slate-300 mb-1">Your Name</label>
+                    <input type="text" id="quote-name" required placeholder="e.g. Ali Raza" class="w-full bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-brand-gold">
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-300 mb-1">Required Service</label>
+                    <select id="quote-service" class="w-full bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-brand-gold">
+                        <option value="Flex Printing">Flex Printing</option>
+                        <option value="Banners & Sign Boards">Banners & Sign Boards</option>
+                        <option value="Visiting Cards">Visiting Cards</option>
+                        <option value="Stickers & Labels">Stickers & Labels</option>
+                        <option value="Vinyl & One-Way Vision">Vinyl & One-Way Vision</option>
+                        <option value="Brochures & Flyers">Brochures & Flyers</option>
+                        <option value="Bill Books">Bill Books</option>
+                        <option value="Graphic Designing">Graphic Designing</option>
+                        <option value="Custom Project">Custom Project</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="block text-xs font-bold text-slate-300 mb-1">Dimensions / Quantity & Details</label>
+                    <textarea id="quote-details" required rows="3" placeholder="Specify width x height (e.g. 10ft x 4ft flex) or total quantity required..." class="w-full bg-slate-900 border border-slate-700 text-white rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-brand-gold"></textarea>
+                </div>
+                <button type="submit" class="w-full py-3.5 gold-gradient-bg text-slate-950 font-extrabold text-xs uppercase tracking-wider rounded-xl shadow-lg shadow-brand-gold/20 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-base"></i> Send Quote Request to WhatsApp
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="fixed bottom-6 right-6 z-50 bg-slate-900 border border-brand-gold/40 text-white px-5 py-3 rounded-xl shadow-2xl text-xs font-bold transform translate-y-20 opacity-0 transition-all duration-300 flex items-center gap-3">
+        <i class="fa-solid fa-circle-check text-brand-gold text-base"></i>
+        <span id="toast-msg">Request sent successfully!</span>
+    </div>
+
+    <!-- Application Script -->
+    <script>
+        // Sample Product Showcase Catalog
+        const productsCatalog = [
+            { id: 1, title: "China Flex Banner Printing", category: "flex", rate: "Rs. 30 / sq.ft", image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=800&q=80", tag: "Standard" },
+            { id: 2, title: "Korean Star Flex Heavy Quality Banner", category: "flex", rate: "Rs. 60 / sq.ft", image: "https://images.unsplash.com/photo-1542744094-3a3121699449?auto=format&fit=crop&w=800&q=80", tag: "High Quality" },
+            { id: 3, title: "Backlight Board Flex (Illuminated)", category: "flex", rate: "Rs. 120 / sq.ft", image: "https://images.unsplash.com/photo-1572021335469-31706a17aaef?auto=format&fit=crop&w=800&q=80", tag: "Illuminated" },
+            { id: 4, title: "One Way Vision / Vinyl Window Sticker", category: "branding", rate: "Rs. 120 / sq.ft", image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80", tag: "Glass Graphics" },
+            { id: 5, title: "Executive Matte Spot UV Cards (1000 Pcs)", category: "cards", rate: "Rs. 2,500 / Pack", image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80", tag: "Premium" },
+            { id: 6, title: "Custom Brand Logo & Banner Art Design", category: "design", rate: "Custom Quote", image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&w=800&q=80", tag: "Creative" }
+        ];
+
+        // DOM Initializer
+        document.addEventListener('DOMContentLoaded', () => {
+            renderProducts(productsCatalog);
+            setupMobileMenu();
+            updateCalcEstimate();
+        });
+
+        // Render Portfolio Grid
+        function renderProducts(items) {
+            const container = document.getElementById('products-container');
+            container.innerHTML = items.map(p => `
+                <div class="bg-brand-card rounded-2xl border border-slate-800 overflow-hidden group gold-border-glow transition-all flex flex-col justify-between">
+                    <div class="relative h-56 overflow-hidden bg-slate-900">
+                        <img src="${p.image}" alt="${p.title}" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <span class="absolute top-4 left-4 bg-slate-950/80 backdrop-blur-md text-brand-gold border border-brand-gold/30 text-[10px] font-bold uppercase tracking-wider px-3 py-1 rounded-full">${p.tag}</span>
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-white text-lg group-hover:text-brand-gold transition-colors">${p.title}</h3>
+                            <p class="text-xs text-brand-gold font-semibold mt-2">${p.rate}</p>
+                        </div>
+                        <button onclick="orderProductDirect('${p.title}')" class="mt-6 w-full py-2.5 bg-slate-900 hover:bg-brand-gold hover:text-slate-950 border border-slate-700 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp"></i> Order This Item
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        // Filter Products
+        function filterProducts(cat) {
+            const btns = document.querySelectorAll('.prod-filter-btn');
+            btns.forEach(b => {
+                b.classList.remove('bg-brand-gold', 'text-slate-950');
+                b.classList.add('bg-slate-900', 'text-slate-300');
+            });
+            event.target.classList.remove('bg-slate-900', 'text-slate-300');
+            event.target.classList.add('bg-brand-gold', 'text-slate-950');
+
+            if (cat === 'all') {
+                renderProducts(productsCatalog);
+            } else {
+                const filtered = productsCatalog.filter(p => p.category === cat);
+                renderProducts(filtered);
+            }
+        }
+
+        // Live Calculator Logic
+        function updateCalcEstimate() {
+            const product = document.getElementById('calc-product').value;
+            const width = parseFloat(document.getElementById('calc-width').value) || 0;
+            const height = parseFloat(document.getElementById('calc-height').value) || 0;
+            const qty = parseInt(document.getElementById('calc-qty').value) || 1;
+            const dimGroup = document.getElementById('dimensions-group');
+
+            let pricePerSqFt = 30; // Default for China Flex
+
+            if (product.includes('Visiting Cards')) {
+                dimGroup.classList.add('hidden');
+                const totalPrice = 1800 * qty;
+                document.getElementById('calc-sqft-display').innerText = `${qty * 1000} Standard Cards`;
+                document.getElementById('calc-price-display').innerText = `Rs. ${totalPrice.toLocaleString()}`;
+                return;
+            }
+
+            dimGroup.classList.remove('hidden');
+
+            if (product.includes('China Flex')) pricePerSqFt = 30;
+            else if (product.includes('Korean Star Flex')) pricePerSqFt = 60;
+            else if (product.includes('Backlight Board Flex')) pricePerSqFt = 120;
+            else if (product.includes('One Way Vision')) pricePerSqFt = 120;
+
+            const sqft = width * height;
+            const totalPrice = Math.round(sqft * pricePerSqFt * qty);
+
+            document.getElementById('calc-sqft-display').innerText = `${sqft.toFixed(1)} Sq. Ft (x${qty})`;
+            document.getElementById('calc-price-display').innerText = `Rs. ${totalPrice.toLocaleString()}`;
+        }
+
+        function handleCalcSubmit(e) {
+            e.preventDefault();
+            const product = document.getElementById('calc-product').value;
+            const width = document.getElementById('calc-width').value;
+            const height = document.getElementById('calc-height').value;
+            const qty = document.getElementById('calc-qty').value;
+            const price = document.getElementById('calc-price-display').innerText;
+
+            let text = `Hi Pakistan Flex FSD! I calculated an order online:%0A- *Product:* ${encodeURIComponent(product)}%0A- *Dimensions:* ${width}ft x ${height}ft%0A- *Quantity:* ${qty}%0A- *Estimated Cost:* ${encodeURIComponent(price)}`;
+            
+            window.open(`https://wa.me/923002447735?text=${text}`, '_blank');
+        }
+
+        // Modal Controls
+        function openQuoteModal() {
+            document.getElementById('quote-modal').classList.remove('hidden');
+        }
+
+        function closeQuoteModal() {
+            document.getElementById('quote-modal').classList.add('hidden');
+        }
+
+        function selectServiceForQuote(serviceName) {
+            document.getElementById('quote-service').value = serviceName;
+            openQuoteModal();
+        }
+
+        function orderProductDirect(productTitle) {
+            const text = `Hi Pakistan Flex FSD! I would like to order: *${encodeURIComponent(productTitle)}*. Please provide details.`;
+            window.open(`https://wa.me/923002447735?text=${text}`, '_blank');
+        }
+
+        function submitModalQuote(e) {
+            e.preventDefault();
+            const name = document.getElementById('quote-name').value;
+            const service = document.getElementById('quote-service').value;
+            const details = document.getElementById('quote-details').value;
+
+            const text = `Hi Pakistan Flex FSD! New Quote Request:%0A- *Name:* ${encodeURIComponent(name)}%0A- *Service:* ${encodeURIComponent(service)}%0A- *Details:* ${encodeURIComponent(details)}`;
+
+            closeQuoteModal();
+            showToast("Opening WhatsApp with your request...");
+            window.open(`https://wa.me/923002447735?text=${text}`, '_blank');
+        }
+
+        // Mobile Nav Toggle
+        function setupMobileMenu() {
+            const menuBtn = document.getElementById('mobile-menu-btn');
+            const closeBtn = document.getElementById('close-mobile-menu');
+            const menu = document.getElementById('mobile-menu');
+            const links = document.querySelectorAll('.mobile-link');
+
+            menuBtn.addEventListener('click', () => menu.classList.remove('hidden'));
+            closeBtn.addEventListener('click', () => menu.classList.add('hidden'));
+            links.forEach(l => l.addEventListener('click', () => menu.classList.add('hidden')));
+        }
+
+        function toggleMobileMenu() {
+            document.getElementById('mobile-menu').classList.toggle('hidden');
+        }
+
+        // Notification Toast
+        function showToast(msg) {
+            const toast = document.getElementById('toast');
+            document.getElementById('toast-msg').innerText = msg;
+            toast.classList.remove('translate-y-20', 'opacity-0');
+            setTimeout(() => {
+                toast.classList.add('translate-y-20', 'opacity-0');
+            }, 3500);
+        }
+    </script>
+</body>
+</html>
